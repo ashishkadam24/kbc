@@ -24,3 +24,13 @@ Instructions
 
 Winning Screen
 ![](/ScreenShots/"Winning Screen.png"?raw=true)
+
+
+### DOCKER 
+```bash
+docker build -t java-app .
+```
+
+```bash
+docker run -e DISPLAY=host.docker.internal:0 --rm java-app
+```
