@@ -34,3 +34,7 @@ docker build -t java-app .
 ```bash
 docker run -e DISPLAY=host.docker.internal:0 --rm java-app
 ```
+
+
+# [java](https://www.java.com/en/download/)
+# [JDK](https://download.oracle.com/java/22/latest/jdk-22_windows-x64_bin.msi)
